@@ -36,7 +36,7 @@ export const projectsData = [
     title: 'DY NEWS',
     info: 'An app that you can read the US and Taiwan hottest & latest news at the same time',
     info2: 'Built with React, TypeScript, Redux, newsapi, and OpenWeatherAPI',
-    url: 'https://danielyu0864.github.io/DY-news/',
+    url: 'https://dy-news.web.app/',
     repo: 'https://github.com/DanielYu0864/DY-news', // if no repo, the button will not show up
   },
   {
