@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Daneil Yu | Front-end Developer', // e.g: 'Name | Developer'
+  title: 'Daneil Yu | Web Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Daniel Yu',
-  subtitle: 'Front-end Developer',
+  subtitle: 'Web Developer',
   cta: '',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'A web development boot camp graduates with experience in HTML5, CSS3, JavaScript, TypeScript, SQL and MongoDB. ',
+    'A web development boot camp graduate with experience in HTML5, CSS3, JavaScript, TypeScript, SQL and MongoDB. ',
   paragraphTwo:
     'Environmental Engineering background in Taiwan and bilingual in Chinese and English. ',
   paragraphThree:
@@ -30,6 +30,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'dy-news.png',
+    title: 'DY NEWS',
+    info: 'An app that you can read the US and Taiwan hottest & latest news at the same time',
+    info2: 'Built with React, TypeScript, Redux, newsapi, and OpenWeatherAPI',
+    url: 'https://danielyu0864.github.io/DY-news/',
+    repo: 'https://github.com/DanielYu0864/DY-news', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'family-app.png',
@@ -56,15 +65,6 @@ export const projectsData = [
     info2: 'JavaScript, ExpressJs, and NodeJS',
     url: 'https://github.com/DanielYu0864/DanielYu-HomeWork-12-Employee-Management-System',
     repo: 'https://github.com/DanielYu0864/DanielYu-HomeWork-12-Employee-Management-System', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'weather-app.png',
-    title: 'Weather App',
-    info: '"A sample weather dashboard with current weather and nextfive days weather forecast',
-    info2: 'Built with HTML, JavaScript, CSS, and OpenWeatherAPI',
-    url: 'https://danielyu0864.github.io/DanielYu-HomeWork-06-Weather-Dashboard/',
-    repo: 'https://github.com/DanielYu0864/DanielYu-HomeWork-06-Weather-Dashboard', // if no repo, the button will not show up
   },
 ];
 
