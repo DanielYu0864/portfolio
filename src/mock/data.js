@@ -12,7 +12,7 @@ export const heroData = {
   title: '',
   name: 'Daniel Yu',
   subtitle: 'Web Developer',
-  cta: '',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
@@ -38,6 +38,16 @@ export const projectsData = [
     info2: 'Built with React, TypeScript, Redux, newsapi, and OpenWeatherAPI',
     url: 'https://dy-news.web.app/',
     repo: 'https://github.com/DanielYu0864/DY-news', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'MD-Charcuterie.png',
+    title: 'MD Charcuterie',
+    info: 'A site for a small business to sell charcuterie and inform customers',
+    info2:
+      'Built with JavaScript, ReactJS, MongoDB, CSS, HTML, Express, Node.JS, bycryptjs, jsonwebtokens, Axios, Multer, Mongoose, Morgan, Bootstrap',
+    url: 'https://ldcharcuterie.herokuapp.com/',
+    repo: 'https://github.com/PeteLow-13/Charcuterie', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
