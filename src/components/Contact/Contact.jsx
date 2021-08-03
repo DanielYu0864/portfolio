@@ -27,7 +27,6 @@ const Contact = () => {
             </a>
           </div>
         </Fade>
-
       </Container>
     </section>
   );
