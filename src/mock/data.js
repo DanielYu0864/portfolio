@@ -19,17 +19,26 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'A web development boot camp graduate with experience in HTML5, CSS3, JavaScript, TypeScript, SQL and MongoDB. ',
+    'A recent graduate of a full-stack development boot camp with experience in Java, Spring Boot, JavaScript, TypeScript, MySQL and MongoDB.  ',
   paragraphTwo:
     'Environmental Engineering background in Taiwan and bilingual in Chinese and English. ',
   paragraphThree:
-    'I enjoy the process of designing and building websites and like to solve challenging problems. Looking to join a team that I can use all I’ve learned and contribute to its success.',
+    'Innovativequick learner who enjoys the process of designing and building websites and likes to solve challenging problems. Looking to join a team that I can use all I’ve learned and contribute to its success.',
   resume:
     'https://docs.google.com/document/d/1UuztsW4WQRWzihy84wIKtwEpPHqmhGGpWV4snOjjDj8/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'cms.png',
+    title: 'CMS',
+    info: 'A construction management system platform for small and medium size businesses',
+    info2: 'Built with Java, ReactJS, JUnit, Spring Boot, and MySQL',
+    url: 'https://github.com/CodingErik/constructionManagementSystem',
+    repo: 'https://github.com/CodingErik/constructionManagementSystem', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'dy-news.png',
@@ -66,15 +75,6 @@ export const projectsData = [
     info2: 'Built with MySQL, ExpressJS, HandlebarJS, NodeJS, JavaScript, CSS, and googleAPI',
     url: 'https://sk8fndr.herokuapp.com/',
     repo: 'https://github.com/DanielYu0864/Project-02-Sk8Tool', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'employee-management-system.png',
-    title: 'Employee Management System',
-    info: 'Employee management system built with NodeJS',
-    info2: 'JavaScript, ExpressJs, and NodeJS',
-    url: 'https://github.com/DanielYu0864/DanielYu-HomeWork-12-Employee-Management-System',
-    repo: 'https://github.com/DanielYu0864/DanielYu-HomeWork-12-Employee-Management-System', // if no repo, the button will not show up
   },
 ];
 
