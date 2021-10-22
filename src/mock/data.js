@@ -36,7 +36,7 @@ export const projectsData = [
     title: 'CMS',
     info: 'A construction management system platform for small and medium size businesses',
     info2: 'Built with Java, ReactJS, JUnit, Spring Boot, and MySQL',
-    url: 'https://github.com/CodingErik/constructionManagementSystem',
+    url: '',
     repo: 'https://github.com/CodingErik/constructionManagementSystem', // if no repo, the button will not show up
   },
   {
