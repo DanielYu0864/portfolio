@@ -36,7 +36,6 @@ export const projectsData = [
     title: 'CMS',
     info: 'A construction management system platform for small and medium size businesses',
     info2: 'Built with Java, ReactJS, JUnit, Spring Boot, and MySQL',
-    url: '',
     repo: 'https://github.com/CodingErik/constructionManagementSystem', // if no repo, the button will not show up
   },
   {
@@ -45,7 +44,7 @@ export const projectsData = [
     title: 'DY NEWS',
     info: 'An app that you can read the US and Taiwan hottest & latest news at the same time',
     info2: 'Built with React, TypeScript, Redux, newsapi, and OpenWeatherAPI',
-    url: 'https://dy-news.web.app/',
+    url: 'https://dy-news.web.app/', // if no url, the button will not show up
     repo: 'https://github.com/DanielYu0864/DY-news', // if no repo, the button will not show up
   },
   {
