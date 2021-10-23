@@ -49,18 +49,16 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      {url && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn cta-btn--hero"
-                          href={url || '#!'}
-                        >
-                          See Live
-                        </a>
-                      )}
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--hero"
+                        href={url || repo}
+                      >
+                        {url ? 'See Live' : 'Source Code'}
+                      </a>
 
-                      {repo && (
+                      {repo && url && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
